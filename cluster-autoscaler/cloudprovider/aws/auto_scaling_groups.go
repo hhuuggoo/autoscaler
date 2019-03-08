@@ -317,7 +317,7 @@ func (m *asgCache) regenerate() error {
 	}
 
 	// Fetch details of all ASGs
-	klog.V(4).Infof("Regenerating instance to ASG map for ASGs: %v", refreshNames)
+	klog.V(4).Infof("Regenerating WHAT instance to ASG map for ASGs: %v", refreshNames)
 	groups, err := m.service.getAutoscalingGroupsByNames(refreshNames)
 	if err != nil {
 		return err
