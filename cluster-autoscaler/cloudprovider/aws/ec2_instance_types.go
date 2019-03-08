@@ -381,12 +381,6 @@ var InstanceTypes = map[string]*instanceType{
 		MemoryMb:     249856,
 		GPU:          2,
 	},
-	"g3s.xlarge": {
-		InstanceType: "g3s.xlarge",
-		VCPU:         4,
-		MemoryMb:     31232,
-		GPU:          1,
-	},
 	"h1": {
 		InstanceType: "h1",
 		VCPU:         64,
